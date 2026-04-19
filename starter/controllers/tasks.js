@@ -1,8 +1,8 @@
 const getAllTask =(req,res)=>{
-    res.send('all items')
+    res.send('get all items')
 }
 const createTask =(req,res)=>{
-    res.send('create items')
+    res.json(req.body)
 }
 const getTask=(req,res)=>{
     res.send('get single task')
